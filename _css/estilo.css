@@ -1,0 +1,98 @@
+/* 	
+ * Autor: Carlos Hans de Oliveira - Gestor de TI 
+ * Data Criação: 15/06/2017
+ * Data de Modificação: 19/06/2017
+ * Cliente: SEDECT - Prefeitura de São Vicente
+ * Sistema: Gerenciamento de solicitações internas de serviços da SEDECT
+ * Copyright 2017 Prefeitura de São Vicente.
+ * Arquivo estilo - css3
+*/
+
+#sombraletra {
+	font-weight: bold;
+	color: #ffffff;
+	text-shadow: #000000 5px 5px 5px; 
+}
+
+#sombraletrapreta {
+	font-weight: bold;
+	color: #000000;
+	text-shadow: #666666 5px 5px 5px; 
+}
+
+#sombraletraerro {
+	font-weight: bold;
+	color: #660000;
+	text-shadow: #666666 5px 5px 5px;
+	text-align: center;  
+}
+
+#bordagrid1 {
+	background-color:lavender;
+	border: 1px solid #888; 
+	border-radius:3px;	
+}
+
+#bordagrid2 {
+	background-color:lavenderblush;
+	border: 1px solid #888; 
+	border-radius:3px;	
+}
+
+#corfundoinicial {
+	background-color: #9BCD9B;
+}
+
+#corfundo {
+	background-color: #9BCD9B;
+}
+
+.cursormousemao { /* Pointer: Objeto clicável; */
+  cursor:pointer;
+}
+.cursormousecrosshair { /* Crosshair: Para precisão; posicionamento;  */
+	cursor:crosshair;
+}
+.cursormousedefault { /* default: Padrão do sistema (seta); */
+	cursor:default;
+}
+.cursormousemove { /* move: Objeto móvel; */
+	cursor:move;
+}
+.cursormousetext { /* text: Selecionar ou editar um texto; */
+	cursor:text;
+}
+.cursormousewait { /* wait: Icone de espera ou carregamento; */
+	cursor:wait;
+}
+.cursormousehelp { /* help: Ajuda; */
+	cursor:help;
+}
+.cursormouseeresize { /* e-resize: Direita; */
+	cursor:e-resize;
+}
+.cursormouseneresize { /* ne-resize: Diagonal cima-direita; */
+	cursor:ne-resize;
+}
+.cursormousenresize { /* n-resize: Cima; */
+	cursor:n-resize;
+}
+.cursormousenwresize { /* nw-resize: Diagonal cima-esquerda; */
+	cursor:nw-resize;
+}
+.cursormousewresize { /* w-resize: Esquerda; */
+	cursor:w-resize;
+}
+.cursormouseswresize { /* sw-resize: Diagonal baixo-esquerda; */
+	cursor:sw-resize;
+}
+.cursormousesresize { /* s-resize: Baixo; */
+	cursor:s-resize;
+}
+.cursormouseseresize { /* se-resize: Diagonal baixo-direita; */
+	cursor:se-resize;
+}
+ 
+ 
+
+
