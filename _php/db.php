@@ -8,7 +8,7 @@
  -->
 <?php
 	class db{
-		private $host=  "10.171.2.233";
+		private $host=  "10.171.2.18";
 		private $usuario="root";
 		private $password= "mcmoraisze";
 		private $dbname="homolog";

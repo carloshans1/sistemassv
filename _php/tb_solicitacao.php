@@ -36,12 +36,13 @@
       $value4 = $_POST['status'];      
       $value5 = $_POST['status_setor'];
       $value6 = $_POST['id_setordestino'];
-      
+
+      //echo '<pre>'; print_r($value1); echo '<br/>'; echo '</pre>';      
 
     	$objDb = new db();
     	$PDO = $objDb->conecta_mysql();
 
-    	$sql = "INSERT INTO tb_solicitacao(`data`, id_solicitante, descricao, status, status_setor, id_setordestino) 
+    	$sql = "INSERT INTO tb_solicitacao(`data`, id_solicitante, descricao, `status`, status_setor, id_setordestino) 
       VALUES(:data, :id_solicitante, :descricao, :status, :status_setor, :id_setordestino)";
 
     	$result = 1;

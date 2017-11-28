@@ -53,7 +53,7 @@
               <br/>
               <label for="siglasetor" id="sombraletrapreta">Depto/Secretaria: <?php echo "$sigla - $depto"; ?></label>
               <input type="hidden" name="id_solicitante" id="id_solicitante" value="<?php echo $id_solicitante; ?>" />
-              <input type="hidden" name="status" id="status" value="Solicitado" />
+              <input type="hidden" name="status" id="status" value=1 />
               <input type="hidden" name="status_setor" id="status_setor" value="<?php echo "$sigla"; ?>" />
             </div>
           </div>
