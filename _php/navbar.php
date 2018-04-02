@@ -130,9 +130,7 @@
         <!-- Lateral direita do navbar (class= nav navbar-nav navbar-right) -->
           <li><a href="_phphtml/alterar_senha.php"><span class="glyphicon glyphicon-user" style="color: #008000;"></span> <?php echo $_SESSION['user_usuario'];?> </a></li>
           <li><a href="_php/acesso/logout.php"><span class="glyphicon glyphicon-log-in"> </span> Logoff</a></li>
-
-      </ul>     
-      
+      </ul>           
     </div>  <!-- /.navbar-collapse -->
   </nav>      
   
