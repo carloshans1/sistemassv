@@ -49,7 +49,8 @@
       $value14 = $_POST['sigladestino'];
       $value15 = $_POST['siglaparado'];
       $value16 = $_POST['aprovadodestino'];
-      
+
+      $solicitacaoservico = $_POST['solicitacaoservico'];      
       /*echo '<pre>'; print_r(" 1 ".$value1." 2 ".$value2." 3 ".$value3." 4 ".$value4." 5 ".$value5);
       echo '</br>';
       print_r($nivel); 
@@ -191,19 +192,31 @@
       if ($mensagem == 'O arquivo foi gravado com sucesso.') {
         $stmt = $PDO->prepare( $sql );
         //$stmt->bindParam( ':campo1', $value7 );
-   
-                  
+                     
         $result = $stmt->execute();
 
         if ( ! $result ) {
             $result = var_dump( $stmt->errorInfo() );
         } else {
-          echo "<script type='text/javascript' language='javascript'>alert('$mensagem'); window.location.href='../_phphtml/consulta_solicitacao.php';</script>";
+          if ($solicitacaoservico = "solicitacao1") {
+            echo "<script type='text/javascript' language='javascript'>alert('$mensagem'); window.location.href='../_phphtml/con_sol_aberta.php';</script>";
+          } elseif ($solicitacaoservico = "solicitacao2") {
+            echo "<script type='text/javascript' language='javascript'>alert('$mensagem'); window.location.href='../_phphtml/con_sol_concluido.php';</script>";
+          } elseif ($solicitacaoservico = "solicitacao3") {
+            echo "<script type='text/javascript' language='javascript'>alert('$mensagem'); window.location.href='../_phphtml/con_sol_cancelado.php';</script>";
+          } elseif ($solicitacaoservico = "solicitacao4") {
+            echo "<script type='text/javascript' language='javascript'>alert('$mensagem'); window.location.href='../_phphtml/consulta_solicitacao.php';</script>";
+          }
         }                     
       } else {
         if ($mensagem == '') { $mensagem = "Falha Staus: Não foi possivel atualizar a solicitação."; }
 
-        echo "<script type='text/javascript' language='javascript'>alert('$mensagem'); window.location.href='../_phphtml/consulta_solicitacao.php';</script>";        
+          if ($solicitacaoservico = "solicitacao1") {
+            echo "<script type='text/javascript' language='javascript'>alert('$mensagem'); window.location.href='../_phphtml/consulta_solicitacao.php';</script>";        
+          } elseif ($solicitacaoservico = "solicitacao2") {
+          } elseif ($solicitacaoservico = "solicitacao3") {
+          } elseif ($solicitacaoservico = "solicitacao4") {
+          }
       }
     ?>
   </body>

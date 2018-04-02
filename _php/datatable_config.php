@@ -23,7 +23,7 @@
     -->
 
 		<!-- Configuração do DATATABLE-->
-    <script>
+    <script>      
       $(document).ready(function(){
         $("#exemplo").dataTable({
           "scrollY":        '50vh',
@@ -52,7 +52,6 @@
               "Last": "Último"
             },              
           }
-
         });
       });
     </script>      

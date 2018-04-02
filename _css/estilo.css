@@ -27,6 +27,23 @@
 	text-align: center;  
 }
 
+#sombraletradestaque {
+	font-weight: bold;
+	color: #A0522D;
+	text-shadow: #666666 5px 5px 5px; 	
+}
+
+#letradestaque {
+	font-weight: bold;
+	color: #A0522D;
+}
+
+#separador {
+    width: 100%; /* coloque aqui a largura da linha */
+    border-top: 1px solid #000;
+    list-style-type: none;
+}
+
 #bordagrid1 {
 	background-color:lavender;
 	border: 1px solid #888; 
@@ -40,11 +57,17 @@
 }
 
 #corfundoinicial {
-	background-color: #9BCD9B;
+	background-color: #336666;
 }
 
-#corfundo {
-	background-color: #9BCD9B;
+#corfundogradright {
+	background-color: #e5e5e5;
+	background-image: linear-gradient(to right,#e5e5e5,#e5e5e5)
+}
+
+#corfundogradleft {
+	background-color: #336666;
+	background-image: linear-gradient(to left,#B0C4DE,#9FB6CD)
 }
 
 .cursormousemao { /* Pointer: Objeto clicável; */
@@ -101,4 +124,9 @@
 .dropdown-submenu:hover>a:after{border-left-color:#555;}
 .dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;-webkit-border-radius:6px 0 6px 6px;-moz-border-radius:6px 0 6px 6px;border-radius:6px 0 6px 6px;}
 
-
+/* classes para controle e style do SWEETALERT2*/
+.swal-wide{
+	background-color: #97FFFF;
+	background-image: linear-gradient(to left,#E0FFFF,#FFFAFA);
+	/*opacity:0.98;-moz-opacity: 0.98;filter: alpha(opacity=98);*/
+}	

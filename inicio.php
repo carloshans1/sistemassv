@@ -15,17 +15,17 @@
 	  <!-- Aciona head padrão do sistema-->
     <?php include("_php/head.php") ?>
 	</head>
-	<body  id="corfundoinicial"> 
+	<body  id="corfundogradright"> 
 		<header>
 			<!-- Aciona navbar padrão do sistema -->
 			<?php include("_php/navbar.php") ?>
 		</header>
 		<!--Inicia seção com cor de fundo e imagem-->		
 		<section>
-			<div align="middle">
+			<div align="middle" class="page-header" style="margin-top: -30px;">
 				<!--<img src="_img/sedect.png" alt="Logo SEDECT" height="100" width="100">
 				<h2 id="sombraletra"> Solicitação </h2> -->
-				<img src="_img/sedect.png" alt="Logo SEDECT" height="300" width="350">
+				<img src="_img/solicitacaosystem.png" alt="imagem system"> <!-- opacity:0.85;-moz-opacity: 0.95;filter: alpha(opacity=95); height="520" width="1020"-->
 			</div>
 		</section>		
 	</body>

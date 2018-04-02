@@ -23,7 +23,7 @@
     <!-- Aciona head padrão do sistema-->
     <?php include("../_php/head2.php") ?>
   </head>
-  <body  id="corfundo">
+  <body  id="corfundogradleft">
     <header>
       <!-- Aciona navbar padrão do sistema-->
       <?php 

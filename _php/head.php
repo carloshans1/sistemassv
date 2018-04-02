@@ -14,6 +14,8 @@
     <meta name="description" content="Projeto: Gerenciamento de Solicitações">
     <meta name="Autor" content="Carlos Hans de Oliveira">
     <meta name="Apoio" content="Mauricio - programador estagiário">
+    <meta name="Data Criação" content="07/06/2017">
+
     <title>Gerenciamento de Solicitaçoes</title>
     
     <!-- ICONE DA PÁGINA -->
@@ -46,4 +48,12 @@
     <script src="datatable/extensions/Buttons/js/pdfmake/vfs_fonts.js"></script>
     <script src="datatable/extensions/Buttons/js/buttons.html5.js"></script>
     <script src="datatable/extensions/Buttons/js/buttons.print.min.js"></script>
+    <script src="_js/sweetalert.min.js"></script>
+    <!-- SWEETALERT apoio para mensagem personalizadas -->
+    <link href="sweetalert2/sweetalert2.min.css" rel="stylesheet"/>
+    <link href="sweetalert2/animate.css" rel="stylesheet" type="text/css" />
+    <script src="sweetalert2/sweetalert2.min.js"></script>  
+    <script src="sweetalert2/sweetalert2.all.min.js"></script>  
+
+    
 
