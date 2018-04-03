@@ -61,7 +61,7 @@
 						</li>
             
             <?php if ($_SESSION['user_nivel'] == 7):  ?>              
-            	<li><a href="../_phphtml/ope_usuario.php" class="glyphicon glyphicon-user" style="color: #008000;"> Usuario</a></li>
+            	<li><a href="../_phphtml/ope_usuario.php" class="glyphicon glyphicon-user"> Usuario</a></li>
             <?php endif;  ?>
 
             <?php if ($_SESSION['user_nivel'] < 7):  ?>
